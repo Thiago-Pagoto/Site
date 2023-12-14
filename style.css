@@ -63,6 +63,16 @@ main.cards section.card {
   background-size: 101% 100%;
 }
 
+#card-4{
+  background-image: url(image/biblia\ aberta.jpg);
+  background-size: 100% 101%;
+}
+
+#card-5{
+  background-image: url(image/mulher\ segurando\ biblia.jpg);
+  background-size: 110% 100%;
+}
+
 
 main.cards section.card span {
   font-weight: 300px;
@@ -284,7 +294,19 @@ section.module.content-2{
   background: #F1E9DA;
 }
 
+/* section.module.content-3{
+  display: flex;
+  padding: 1%;
+  background: #F1E9DA;
+}
+
 section.module.content-3{
+  display: flex;
+  padding: 1%;
+  background: #F1E9DA;
+} */
+
+section.module.content-5{
   display: flex;
   padding: 1%;
   background: #F1E9DA;
@@ -327,6 +349,16 @@ section.module.parallax-2{
 }
 
 section.module.parallax-3{
+  background-image: url("./image/fundo\ preto\ com\ textura.jpg");
+  height: 60.2vh !important;
+}
+
+section.module.parallax-4{
+  background-image: url("./image/fundo\ preto\ com\ textura.jpg");
+  height: 40vh !important;
+}
+
+section.module.parallax-5{
   background-image: url("./image/fundo\ preto\ com\ textura.jpg");
   height: 40vh !important;
 }

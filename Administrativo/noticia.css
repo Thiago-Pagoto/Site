@@ -76,7 +76,7 @@ nav i {
 
 /* Main Section */
 .main {
-  width: 50%;
+  width: 100%;
 }
 .main-top {
   width: 100%;
@@ -150,9 +150,9 @@ h1 {
 }
 .job_card {
   width: 100%;
-  margin-left: 50%;
-  margin-top: 35px;
-  padding: 15px;
+  /* margin-left: 50%; */
+  margin-top: 40px;
+  padding: 11px;
   cursor: pointer;
   display: flex;
   border-radius: 10px;

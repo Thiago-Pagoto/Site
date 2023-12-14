@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #F1E9DA;
   font-family: sans-serif;
   min-height: 100vh;
   max-width: 100vw;
@@ -21,11 +22,11 @@ body {
   text-transform: uppercase;
 }
 
-.heading-2 {
+/* .heading-2 {
   font-size: 40px;
   line-height: 1.1;
   margin-bottom: 20px;
-}
+} */
 
 .heading-3 {
   font-size: 20px;
@@ -102,25 +103,27 @@ article p:first-child::first-line {
 
 /* blockquote */
 blockquote {
-  font-size: 20px;
+  font-size: px;
   padding: 10px 30px;
   margin-bottom: 40px;
   position: relative;
 }
 
 blockquote::before {
+  display: flex;
   content: open-quote;
   position: absolute;
   top: -48px;
-  left: -4px;
+  left: -18px;
   opacity: .3;
   color: #666;
   font-size: 150px;
 }
 
 .cards {
+  position: relative;
   columns: 25ch 3;
-  gap: 40px;
+  gap: 20px;
   margin-bottom: 40px;
 }
 

@@ -64,13 +64,13 @@ main.cards section.card {
 }
 
 #card-4{
-  background-image: url(./image/biblia\ aberta.jpg);
-  background-size: 100% 101%;
+  background-image: url(./image/biblia\ fundo.jpg);
+  background-size: 101% 100%;
 }
 
 #card-5{
-  background-image: url(./image/mulher\ segurando\ biblia.jpg);
-  background-size: 110% 100%;
+  background-image: url(./image/biblia\ aberta.jpg);
+  background-size: 101% 100%;
 }
 
 
